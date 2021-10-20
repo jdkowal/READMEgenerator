@@ -1,7 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown");
+
 // TODO: Create an array of questions for user input
+const licenseArray = ["MIT","APACHE 2.0","GLP 3.0","BSD 3","None"]
 const questions = [
     {
         type:"input",
@@ -15,7 +18,7 @@ const questions = [
     },
     {
         type:"input",
-        name: "project-name",
+        name: "title",
         message: "What is your project's name"
     },
     {
@@ -24,23 +27,26 @@ const questions = [
         message: "Write a short description of your project"
     },
     {
-        type:"input",
+        type:"list",
         name: "licence",
-        message: "What kind of license should your project have?"
+        message: "What kind of license should your project have?",
+        choices: licenseArray
     },
     {
     type:"input",
     name: "npm",
-    message: "What command should be run to install dependencies?"
+    message: "What command should be run to install dependencies?",
+    default: "npm i"
     },
     {
         type:"input",
         name: "test",
-        message: "What command should be run to run tests?"
+        message: "What command should be run to run tests?",
+        default: "npm test"
     },
     {
         type:"input",
-        name: "need to know",
+        name: "needToKnow",
         message: "What does the user need to know about using the repo?"
     },
     {
@@ -52,15 +58,24 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
+// function writeToFile(fileName, data) {}
+// fs.appendFile("README.md",)
+// // TODO: Create a function to initialize app
+function init() {
+    inquirer
+.prompt(questions)
+.then((data)=>{
+    console.log(data.licence)
+    fs.writeFile("README.md",generateMarkdown(data), (err)=>{
+        if (err) {
+            console.log(err);
+        }
+        else {
+            console.log("Generating README...");
+        }
+    })
+})
+}
 
 // Function call to initialize app
 init();
-
-console.log(questions);
-
-inquirer
-.prompt(questions)
