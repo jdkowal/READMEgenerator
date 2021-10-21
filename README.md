@@ -1,7 +1,8 @@
 # Professional Readme Generator 
 ![Link to Application](https://github.com/jdkowal/READMEgenerator)
 
-![Link to Gif](https://watch.screencastify.com/v/HbfbN4WuHHW9l4LAATob)
+![Link to Gif](/assets/readme.gif)
+There is a gif in the assets folder as well. 
 
 ## Description
 The goal of this exercise was to take some stater code and make it do the following 
