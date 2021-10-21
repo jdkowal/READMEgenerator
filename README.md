@@ -1,9 +1,9 @@
-# READMEgenerator
+# Professional Readme Generator 
 ![Link to Application](https://github.com/jdkowal/READMEgenerator)
 
-![Link to Gif](assets\README.gif)
+![Link to Gif](https://watch.screencastify.com/v/HbfbN4WuHHW9l4LAATob)
 
-Professional Readme Generator 
+## Description
 The goal of this exercise was to take some stater code and make it do the following 
 
 GIVEN a command-line application that accepts user input
@@ -25,6 +25,8 @@ THEN I am taken to the corresponding section of the README
 To get started I needed a prompt in order to ask for the desired length of the password. Once I had the length I placed that inside of a variable. I followed that up by asking a series of confirms to determine the characters in the password. I placed these booleans inside of an empty variable "charSet." Then I created the empty variable "yourPassword," which was filled by a floor loop that ran Math.random function, which resulted in a yourPassword return. This return is what you see in the your secure password box. 
 
 This took me a lot longer than I thought but I think I know a lot more about Java Script now. I deleted way more code than I wrote, but I believe that I complete the assignment as shown. 
+
+## License
 
 Copyright (c) [2021] [Joe Kowalczyk]
 
