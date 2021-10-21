@@ -23,9 +23,9 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-To get started I needed a prompt in order to ask for the desired length of the password. Once I had the length I placed that inside of a variable. I followed that up by asking a series of confirms to determine the characters in the password. I placed these booleans inside of an empty variable "charSet." Then I created the empty variable "yourPassword," which was filled by a floor loop that ran Math.random function, which resulted in a yourPassword return. This return is what you see in the your secure password box. 
+## Installation 
 
-This took me a lot longer than I thought but I think I know a lot more about Java Script now. I deleted way more code than I wrote, but I believe that I complete the assignment as shown. 
+run npm i 
 
 ## License
 
