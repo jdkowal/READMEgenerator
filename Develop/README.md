@@ -1,23 +1,40 @@
 # README Generator
   
   ## Description
-  This project will make a profesional readme genrator
+  This is a README generator
   
+  ## Table of Contents
+  -[Instillation](#Installation)
+  -[Usage](#Usage)
+  -[License](#License)
+  -[Badges](#badges)
+  -[Feature](#Features)
+  -[Contributions](#Contributions)
+  -[Tests](#Tests)
+
+
   ## Installation
   Install dependencies use npm i
   
-  ## License
-  APACHE 2.0
+  ## Usage
+  Nothing
 
+  ## License
+  This project is licensed under the MIT license.
+  
+*[License](#MIT)
+*
+  
   ## Badges
-  
+  ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+
   ## Features
-  undefined
+  Nothing
   
-  ## How to Contribute
+  ## Contributions
   gitHub user Name: jdkowal
-  email: josephdkowalczyk61@gmail.com
-  shoot me an email
+  email: jdkowal@gmail.com
+  Email me
 
   ## Tests
-  For testing use <npm test>
+  For testing use npm test

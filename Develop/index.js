@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type:"list",
-        name: "licence",
+        name: "license",
         message: "What kind of license should your project have?",
         choices: licenseArray
     },
@@ -46,7 +46,7 @@ const questions = [
     },
     {
         type:"input",
-        name: "needToKnow",
+        name: "usage",
         message: "What does the user need to know about using the repo?"
     },
     {
@@ -65,7 +65,6 @@ function init() {
     inquirer
 .prompt(questions)
 .then((data)=>{
-    console.log(data.licence)
     fs.writeFile("README.md",generateMarkdown(data), (err)=>{
         if (err) {
             console.log(err);
