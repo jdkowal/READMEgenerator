@@ -1,7 +1,7 @@
-# README Generator
+# README generator 
   
   ## Description
-  This is a README generator
+  this is an application that creates a readme! 
   
   ## Table of Contents
   -[Instillation](#Installation)
@@ -17,24 +17,24 @@
   Install dependencies use npm i
   
   ## Usage
-  Nothing
+  make sure you email me before you start messing with this application
 
   ## License
-  This project is licensed under the MIT license.
+  This project is licensed under the GLP 3.0 license.
   
-*[License](#MIT)
+*[License](#GLP 3.0)
 *
   
   ## Badges
-  ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github License](https://img.shields.io/badge/license-GLP 3.0-blue.svg)
 
   ## Features
-  Nothing
+  make sure you email me before you start messing with this application
   
   ## Contributions
   gitHub user Name: jdkowal
-  email: jdkowal@gmail.com
-  Email me
+  email: jdkowal@gamil.com
+  nothing 
 
   ## Tests
   For testing use npm test

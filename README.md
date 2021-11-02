@@ -1,7 +1,7 @@
 # Professional Readme Generator 
 ![Link to Application](https://github.com/jdkowal/READMEgenerator)
 
-![Link to Gif](/assets/readme.gif)
+![Video Demo](https://watch.screencastify.com/v/SzVTkJJNtvnYOhIv7OE5)
 There is a gif in the assets folder as well. 
 
 ## Description
